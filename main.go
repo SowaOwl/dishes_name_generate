@@ -8,6 +8,8 @@ import (
 	"time"
 )
 
+// A small application for generating random dishes with their descriptions
+
 type Dish struct {
 	Id          int     `json:"id"`
 	Name        string  `json:"name"`
